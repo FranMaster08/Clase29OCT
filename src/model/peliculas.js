@@ -1,6 +1,7 @@
+const db = require('../database/models')
 const peliculasModel = {
   getAll: async function () {
-    return [];
+    return await db.actores.findAll();
   },
   getPelicula: async function (nombre) {
     return this.getAll.filter((item) => item.name === nombre);

@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "c5d83656-ed6c-41eb-9410-8bc9d365815e",
+		"name": "Paises Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/countries/allCountries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"countries",
+						"allCountries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/countries/getCountry/Cuba",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"countries",
+						"getCountry",
+						"Cuba"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
